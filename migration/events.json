@@ -1,0 +1,138 @@
+[
+    {
+        "title": "Ensayo coral",
+        "date": "2026-03-31",
+        "time": "19:30",
+        "location": "Bilbao",
+        "comment": "Llevar partituras",
+        "kit": "Carpeta negra"
+    },
+    {
+        "title": "Ensayo en Ayalde",
+        "date": "2026-02-04",
+        "time": "9:15",
+        "location": "Colegio",
+        "comment": "Tomar autobús",
+        "kit": "Ordenador, partituras"
+    },
+    {
+        "title": "Día del Trabajador",
+        "date": "2026-06-01",
+        "time": "06:00",
+        "location": "Bilbao",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Santiago Apóstol",
+        "date": "2026-07-25",
+        "time": "06:00",
+        "location": "Bilbao",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "San Ignacio de Loyola",
+        "date": "2026-07-31",
+        "time": "06:00",
+        "location": "Bilbao",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Asunción de María",
+        "date": "2026-08-15",
+        "time": "06:00",
+        "location": "España",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Viernes de Semana Grande",
+        "date": "2026-08-28",
+        "time": "06:00",
+        "location": "Bilbao",
+        "comment": "Festivo",
+        "kit": ""
+    },
+    {
+        "title": "Día de España",
+        "date": "2026-10-12",
+        "time": "06:00",
+        "location": "España",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Inmaculada concepción",
+        "date": "2026-12-08",
+        "time": "06:00",
+        "location": "España",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Navidad",
+        "date": "2026-12-25",
+        "time": "06:00",
+        "location": "Mundial",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Año nuevo",
+        "date": "2027-01-01",
+        "time": "06:00",
+        "location": "Mundial",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Coral Brahms ENSAYO",
+        "date": "2026-04-15",
+        "time": "17:00",
+        "location": "San Nicolás",
+        "comment": "Ensayo",
+        "kit": ""
+    },
+    {
+        "title": "Coral Brahms CONCIERTO",
+        "date": "2026-04-18",
+        "time": "20:00",
+        "location": "San Nicolás",
+        "comment": "Concierto",
+        "kit": ""
+    },
+    {
+        "title": "Día de Reyes",
+        "date": "2027-01-06",
+        "time": "06:00",
+        "location": "España",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "San José",
+        "date": "2027-03-19",
+        "time": "06:00",
+        "location": "Bilbao",
+        "comment": "FESTIVO",
+        "kit": ""
+    },
+    {
+        "title": "Concierto de fin de curso",
+        "date": "2026-06-02",
+        "time": "11:00",
+        "location": "Oratorio del colegio",
+        "comment": "Con coro de primaria y coro de ESO del colegio Ayaldo",
+        "kit": ""
+    },
+    {
+        "title": "Concierto especial",
+        "date": "2026-06-03",
+        "time": "20:00",
+        "location": "Iglesia San José de la Montaña",
+        "comment": "Con coro de primaria y coro de ESO del colegio Ayaldo",
+        "kit": ""
+    }
+]

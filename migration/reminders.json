@@ -1,0 +1,40 @@
+[
+    {
+        "type": "monthly",
+        "text": "Pagar internet",
+        "time": "8:30",
+        "comment": "Revisar factura",
+        "active": true,
+        "day": 10,
+        "interval_months": 1,
+        "start_month": 1
+    },
+    {
+        "type": "monthly",
+        "text": "Revisar presupuesto",
+        "day": 5,
+        "interval_months": 1,
+        "start_month": 1,
+        "time": "",
+        "comment": "Control mensual",
+        "active": true
+    },
+    {
+        "type": "monthly",
+        "text": "Pagar ChatGPT",
+        "time": "21:00",
+        "comment": "",
+        "active": true,
+        "day": 4,
+        "interval_months": 1,
+        "start_month": 1
+    },
+    {
+        "type": "unique",
+        "text": "Jueves del 2000",
+        "time": "6:00",
+        "comment": "Confirmación",
+        "active": true,
+        "date": "2026-04-27"
+    }
+]

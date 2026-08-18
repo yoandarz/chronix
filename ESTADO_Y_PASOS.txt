@@ -1,0 +1,28 @@
+CHRONIX 1.0.0 — ESTADO
+======================
+
+HECHO:
+- Rediseño web responsive/PWA.
+- Sincronización Supabase separada en chronix_records.
+- Tabla y políticas RLS creadas en Supabase.
+- Migración automática de los datos JSON originales.
+- CRUD de cumpleaños, eventos y recordatorios.
+- Consulta por fecha.
+- Importar/exportar JSON y exportar Word.
+- Tema claro/oscuro y rango configurable.
+- Programación semanal de alarmas.
+- Android nativo con AlarmManager y barra de estado corregida.
+- Bridge Windows residente 1.0.0 compilado, puerto 51339.
+- Prueba local de alarma a 1 minuto.
+- Posposición de alarmas.
+
+LO QUE DEBE HACER EL USUARIO:
+1) Crear repositorio público de GitHub llamado chronix.
+2) Subir a la raíz todo el contenido de esta carpeta.
+3) Activar GitHub Pages (main / root).
+4) Abrir la web e iniciar sesión con la misma cuenta usada en las otras apps.
+5) Verificar que aparecen los datos originales.
+6) En Actions, ejecutar Build Chronix Android y descargar el APK.
+7) Instalar el APK y conceder notificaciones/alarmas exactas.
+8) En Windows, ejecutar windows/ChronixAlarmBridge.exe una vez.
+9) En Ajustes de Chronix, pulsar Activar alarmas y Probar 1 min en cada plataforma.
