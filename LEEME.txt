@@ -1,0 +1,19 @@
+CHRONIX — Corrección: Buscar cumpleaños
+
+Archivos incluidos:
+- app.js
+- sw.js
+
+Qué restaura:
+- Botón "Buscar cumpleaños" en la barra principal.
+- Búsqueda por nombre completo o por una parte del nombre.
+- Resultados con nombre, fecha del próximo cumpleaños, día de la semana y días restantes.
+- Cuadro propio compatible con navegador, PWA y WebView Android; no usa prompt().
+
+Instalación:
+1. En GitHub, abre el repositorio chronix.
+2. En la raíz, Add file > Upload files.
+3. Sube app.js y sw.js.
+4. Confirma que GitHub reemplaza los archivos existentes.
+5. Haz el commit.
+6. Recarga Chronix. Si está instalada como PWA, ciérrala por completo y vuelve a abrirla para que el nuevo Service Worker actualice la caché.
