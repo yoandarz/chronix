@@ -1,0 +1,56 @@
+CHRONIX — CORRECCIÓN TEMA + BRIDGE + GENERACIÓN APK
+
+ESTE PAQUETE SE SUBE SOBRE EL REPOSITORIO ACTUAL.
+No borra tus datos ni crea otro proyecto.
+
+CONTENIDO
+- app.js
+  Incluye la búsqueda de cumpleaños restaurada y corrige el cambio de tema.
+  Al seleccionar Claro/Oscuro, el tema se aplica y guarda inmediatamente.
+
+- sw.js
+  Incrementa la caché a chronix-shell-v3 para que la PWA reciba la corrección.
+
+- windows/ChronixAlarmBridge.exe
+  Bridge 1.0.1. Al ejecutarlo manualmente confirma visualmente que está activo.
+  En el inicio automático de Windows sigue siendo silencioso.
+
+- windows/main.go
+  Código fuente exacto del Bridge 1.0.1.
+
+- .github/workflows/build-android.yml
+  Workflow que faltaba en el repositorio. Al subirlo a main dispara la
+  compilación del APK mediante GitHub Actions.
+
+CÓMO SUBIRLO
+1. Descomprime este ZIP.
+2. Abre el repositorio yoandarz/chronix en GitHub.
+3. En la RAÍZ: Add file > Upload files.
+4. Arrastra TODO el contenido de esta carpeta:
+   app.js
+   sw.js
+   windows/
+   .github/
+5. Confirma el commit en main.
+
+APK
+Después del commit:
+1. GitHub > repositorio chronix > Actions.
+2. Abre "Build Chronix Android".
+3. Espera a que termine en verde.
+4. En la página del run, sección Artifacts:
+   Chronix-Android-1.0.0
+5. Descarga el ZIP.
+6. Dentro está app-debug.apk.
+7. Ese app-debug.apk es el archivo que instalas en Android.
+
+BRIDGE WINDOWS
+Después de sustituir el EXE, ejecútalo.
+Debe mostrar una confirmación.
+Para verificarlo abre:
+http://127.0.0.1:51339/health
+
+Si ya estaba ejecutándose una copia anterior, el nuevo EXE te avisará de que
+el Bridge ya está activo. La versión nueva queda registrada para el próximo
+inicio de Windows. Si quieres probar 1.0.1 inmediatamente, cierra primero la
+copia anterior desde el Administrador de tareas y vuelve a abrir el nuevo EXE.
