@@ -1,0 +1,15 @@
+CHRONIX — CORRECCIÓN FESTIVOS
+
+Subir al repositorio respetando rutas:
+- app.js -> raíz
+- sw.js -> raíz
+- migration/holidays.json -> carpeta migration
+
+Después del commit:
+1. esperar a GitHub Pages;
+2. cerrar completamente Chronix;
+3. volver a abrirla;
+4. Gestionar -> Festivos.
+
+No se requiere cambio en Supabase ni recompilar Android para que la nueva categoría
+aparezca: Android carga la misma PWA.
